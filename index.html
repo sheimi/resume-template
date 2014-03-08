@@ -1,0 +1,171 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ site.data.meta.owner.name }}</title>
+  <meta name="author" content="{{ site.data.meta.owner.niki }}" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+  <link rel="icon" href="static/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="static/css/site.css" type="text/css"/>
+  <script src="static/js/modernizr.js"></script>
+</head>
+<body>
+  <div id ="resume" class="resume-box shadow-box">
+    <section id="title" class="clearfix">
+      <h1>{{ site.data.meta.owner.name }}</h1>
+      <ul class="contact">
+        <li>phone: {{ site.data.meta.owner.phone }}</li>
+        <li>email: <a href="mailto:{{ site.data.meta.owner.email }}"
+          target="_blank">{{ site.data.meta.owner.email }}</a>
+        </li>
+        <li>blog: <a href="{{ site.data.meta.owner.blog }}" target="_blank">{{ site.data.meta.owner.blog }}</a></li>
+        <li>projects: <a href="{{ site.data.meta.owner.projects }}" target="_blank">{{ site.data.meta.owner.projects }}</a></li>
+      </ul>
+    </section>
+    <section id="education" class="sub-section">
+      <h2>Objective</h2>
+      <div class="section-content">
+        <ul class="section-ul">
+          <li>
+            <div class="objective-block clearfix">
+              <div class="objective-detail">
+                {{ site.data.meta.objective }}
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="education" class="sub-section">
+      <h2>Education</h2>
+      <div class="section-content">
+        <ul class="section-ul">
+          {% for edu in site.data.education %}
+          <li>
+            <div class="education-block clearfix">
+              <div class="left-block">
+                <span class="degree-time">{{ edu.degree_time }}</span>
+              </div>
+              <div class="education-detail right-block">
+                <span class="degree-name">{{ edu.degree_name }}</span> in
+                <span class="degree-major">{{ edu.degree_major }}</span>,
+                <span class="school">{{ edu.school }}</span>, GPA: 
+                <span class="gpa">{{ edu.gpa}}</span>
+              </div>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+    <section id="intern" class="sub-section">
+      <h2>Internship &amp; Employment</h2>
+      <div class="section-content">
+        <ul class="section-ul">
+          {% for job in site.data.jobs %}
+          <li>
+            <div class="job-block clearfix">
+              <div class="left-block">
+                {% if job.current %}
+                <span class="job-time">Current</span>
+                {% endif %}
+                <span class="job-time">{{ job.time }}</span>
+              </div>
+              <div class="right-block job-detail">
+                <div class="job-title">{{ job.title }}</div>
+                <div class="job-des">{{ job.des }}</div>
+              </div>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+    <section id="projects" class="sub-section">
+      <h2>Projects</h2>
+      <div class="section-content">
+        <ul class="section-ul">
+          {% for proj in site.data.projects %}
+          <li>
+            <div class="project-block clearfix">
+              <div class="left-block">
+                <span class="project-time">{{ proj.time }}</span>
+              </div>
+              <div class="right-block project-detail">
+                <div class="project-name">{{ proj.name }}
+                  {% if proj.more %}
+                  <span class="project-name-more">{{ proj.more }}</span>
+                  {% endif%}
+                </div>
+                <div class="project-des">{{ proj.des}}</div>
+              </div>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+    <section id="skills" class="sub-section">
+      <h2>Computer Skills</h2>
+      <div class="section-content">
+        <ul class="section-ul">
+          {% for skill in site.data.skills %}
+          <li>
+            <div class="skills-block clearfix">
+              <div class="left-block">
+                <span class="skill-title">{{ skill.name }}</span>
+              </div>
+              <div class="right-block skill-detail">
+                <ul>
+                  {% for item in skill.items %}
+                  <li>{{ item }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+    <section id="awards" class="sub-section">
+      <h2>Awards</h2>
+      <div class="section-content">
+        <ul class="section-ul">
+          {% for award in site.data.awards %}
+          <li>
+            <div class="awards-block clearfix">
+              <div class="left-block">
+                <span class="award-time">{{ award.time }}</span>
+              </div>
+              <div class="awards-detail right-block">
+                <span class="award-name">{{ award.name }}</span>
+              </div>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+    <section id="about-me">
+      <span class="copyright">Copyright &copy; <a
+          href="{{ site.data.meta.copyright.link }}" target="_blank">{{ site.data.meta.copyright.name }}</a></span>|
+      <span class="pdf-version">
+        <a href="resume.pdf" target="_blank">PDF Version</a></span> |
+      <span class="to-print">
+        <a href="javascript:print()" target="_blank">Print</a></span> 
+    </section>
+  </div>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-29300274-2', 'sheimi.me');
+    ga('send', 'pageview');
+  </script>
+</body>
