@@ -1,0 +1,109 @@
+markdown: rdiscount
+pygments: true
+
+copyright:
+  name: sheimi
+  link: http://blog.sheimi.me
+
+owner:
+  name: Rizhen Zhang
+  niki: sheimi
+  email: sheimi.zhang@gmail.com
+  blog: http://blog.sheimi.me
+  projects: http://projects.sheimi.me
+  phone: (858)382-4693
+
+objective: I’m a first-year M.S. student and want to find an intern position
+           during 2014 summer. I am interested in web development, mobile
+           development, operating system, network and distributed system.
+
+education:
+  - school: UC San Diego
+    degree_time: Expected June 2015
+    gpa: 3.5 / 4
+    degree_name: Master of Science
+    degree_major: Computer Science
+  - school: Nanjing University
+    degree_time: June 2013
+    gpa: 89.6 / 100
+    degree_name: Bachelor of Engineering
+    degree_major: Software Engineering
+
+jobs:
+  - title: Part-time Job at San Diego SuperComputer Center, San Diego
+    current: True
+    time: Nov 2013 - Now
+    des: I am now helping maintain a project called CIPRES Science Gateway.
+         It enables researchers to analyze large phylogenetic trees on the
+         supercomputer and take advantage of high performance computing.
+  - title: Internship at Qiduo Tech Inc., Nanjing
+    time: Dec 2012 - June 2013
+    des: I am responsible for the Android clients of two products. I build
+         them from scratch. One is a cloud notebook client and the other is
+         a cloud task manager client.
+  - title: Summer Intern at eBay COE China, Shanghai
+    time: July 2012 - Sep. 2012
+    des: I am responsible for the web application of a project, "Global View".
+         And I also redesigned the web interface for the project. This project
+         is for monitoring analysis tasks in eBay.
+
+projects:
+  - name: SGit
+    more: Available in Google Play Store and iTunes Store
+    time: Since Aug. 2013
+    des: It is an unofficial Git client for Android. It now gets about <b>4.4</b>
+         average rating and over <b>7000</b> total installs in Google Play Store.
+         It can clone from remote repositories, check out branches, merge
+         branches, make changes, push changes to remote and some traditional
+         features of Git. It supports Http/Https/SSH protocol
+         (except private key with passphrase). The iOS version also
+         available on iTunes store now.
+  - name: MessageHook-OpenFire
+    more: A hackathon project
+    time: Jan. 2014
+    des: This project is for a hackathon contest. It is a plugin for
+         OpenFire XMPP server and it turns a specific chatroom into a
+         server console. Users can type specific command while they are
+         chatting. And users can do whatever the administrator configured
+         in the server such as deploy a website.
+  - name: MyLex
+    time: Oct. 2012
+    des: It is the homework of "Compilers", a tiny lexical analyzer generator.
+         And it is personal project and implemented in C++. It can parse a
+         file with a specific format and generate a lexical analyzer for a
+         language defined in the file.
+  - name: Media Cloud
+    time: May 2011 - Mar. 2012
+    des: This is a research project for a national innovative program. 
+         We were trying to find ways to apply distributed computing and storage
+         on multimedia processing for research purpose. And I am responsible
+         for the distributed infrastructure.
+
+skills:
+  - name: Programming Language
+    items:
+      - Proficient in Python, Java, Javascript, and C/C++
+      - Skilled in Objective-C and some other popular languages
+  - name: Operating System
+    items:
+      - Proficient in Linux/Unix Programming and Android platform
+      - Skilled in iOS development
+      - Have some knowledge about Linux kernel programming
+  - name: Others
+    items:
+      - Proficient in web development and Git
+      - Familiar with Hadoop, Pig, HBase and Zookeeper
+      - Enter round 2 in Google Code Jam, 2013
+
+awards:
+  - name: National Scholarship
+    time: Nov. 2010
+  - name: Samsung Scholarship
+    time: Nov. 2011
+  - name: First prize of the People’s Scholarship
+    time: Oct. 2012
+  - name: Third prize of EL Programming Competition held by Software Institute
+    time: June 2010
+  - name: Prized for excellence in Google Campus Android Developing Competition
+    time: Nov. 2010
+

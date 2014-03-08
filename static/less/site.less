@@ -1,0 +1,147 @@
+@import 'mixins.less';
+@import 'variables.less';
+
+@left-width: 160px;
+@resume-width: 840px;
+@linkColor: #555;
+@linkColorHover: rgb(51, 51, 51);
+@contact-width: 300px;
+
+body {
+  margin: 0;
+  background-color: #e5e5e5;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.5em;
+}
+a {
+  color: @linkColor;
+  &:visited { color: @linkColor; }
+  &:hover { color: @linkColorHover; }
+}
+ul {
+  list-style-type: none;
+}
+.resume-box {
+  background: @white;
+  @box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+  .box-shadow(@box-shadow);
+  margin: 20px auto;
+  padding-top: 15px;
+  max-width: @resume-width;
+}
+.sub-section {
+  margin: 15px 30px;
+  h2 {
+    padding: 2px 0 0 0;
+    font-size: 16px;
+    margin: 0;
+    color: #666;
+    border-top: solid 2px #ccc
+  }
+  .section-ul {
+    padding-left: 0;
+    margin: 1px 0 3px 0;
+    > li {
+      margin: 4px 0;
+      line-height: 1.1;
+      font-size: 13px;
+      ul {
+        list-style: disc;
+        padding-left: 15px;
+      }
+    }
+  }
+}
+
+.left-block {
+  width: @left-width;
+  float: left;
+  span {
+    font-weight: bold;
+    display: block;
+  }
+}
+.right-block {
+  margin-left: @left-width + 20px;
+}
+
+.education-detail {
+  .degree-name,
+  .degree-major,
+  .school {
+    font-size: 1.1em;
+    display: inline-block;
+    margin: 0 2px;
+  }
+}
+
+.job-detail {
+  .job-title {
+    font-weight: bold;
+    line-height: 1.2;
+    font-size: 1.1em;
+  }
+}
+
+.project-detail {
+  .project-name {
+    font-weight: bold;
+    line-height: 1.2;
+    font-size: 1.1em;
+  }
+  span.project-name-more {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+  }
+}
+
+#title {
+  margin: 0 30px;
+  color: rgb(51, 51, 51);
+  .contact {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2em;
+    font-size: 0.9em;
+  }
+}
+.clear {
+  clear: both;
+}
+#about-me {
+  padding: 10px;
+  text-align: center;
+  color: #888;
+  font-size: 0.8em;
+  a {
+    color: #888;
+    &:active { color: #888 };
+    &:hover { color: #888 };
+  }
+}
+
+#title {
+  h1 {
+    float: left;
+    font-size: 30px;
+    margin: 20px 0;
+  }
+  .contact {
+    margin-top: 20px;
+    width:  @contact-width;
+    margin-left: @resume-width - @contact-width;
+  }
+}
+@media print {
+  #about-me {
+    display: none;
+  }
+  .resume-box {
+    border: none;
+    .box-shadow(none);
+  }
+  a {
+    text-decoration: none;
+  }
+}
