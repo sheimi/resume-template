@@ -1,0 +1,11 @@
+- school: UC San Diego
+  degree_time: Expected June 2015
+  gpa: 3.5 / 4
+  degree_name: Master of Science
+  degree_major: Computer Science
+
+- school: Nanjing University
+  degree_time: June 2013
+  gpa: 89.6 / 100
+  degree_name: Bachelor of Engineering
+  degree_major: Software Engineering
