@@ -12,7 +12,7 @@
 - name: MessageHook-OpenFire
   more: A hackathon project
   time: Jan. 2014
-  des: This project is for a hackathon contest. It is a plugin for
+  des: This project is a hackathon project. It is a plugin for
        OpenFire XMPP server and it turns a specific chatroom into a
        server console. Users can type specific command while they are
        chatting. And users can do whatever the administrator configured
@@ -29,5 +29,5 @@
   time: May 2011 - Mar. 2012
   des: This is a research project for a national innovative program. 
        We were trying to find ways to apply distributed computing and storage
-       on multimedia processing for research purpose. And I am responsible
+       on multimedia processing for research purpose. And I was responsible
        for the distributed infrastructure.
