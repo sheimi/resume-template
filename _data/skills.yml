@@ -1,6 +1,6 @@
 - name: Programming Language
   items:
-    - Proficient in Python, Java, Javascript, C/C++ and Golang
+    - Proficient in Python, Golang, Java, C/C++ and JavaScript
     - Skilled in Objective-C, Haskell and some other popular languages
 
 - name: Operating System
@@ -12,5 +12,6 @@
 - name: Others
   items:
     - Proficient in web development and Git
+    - Experience with implementing distributed systems
     - Familiar with Hadoop, Pig, HBase and Zookeeper
     - Enter round 2 in Google Code Jam, 2013

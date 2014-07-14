@@ -1,13 +1,47 @@
 - name: SGit
   more: Available in Google Play Store and iTunes Store
   time: Since Aug. 2013
-  des: It is an unofficial Git client for Android. It now gets about <b>4.4</b>
-       average rating and over <b>7000</b> total installs in Google Play Store.
+  des: It is an unofficial Git client for Android. It now gets about <b>4.3</b>
+       average rating and over <b>10000</b> total installs in Google Play Store.
        It can clone from remote repositories, check out branches, merge
        branches, make changes, push changes to remote and some traditional
        features of Git. It supports Http/Https/SSH protocol
        (except private key with passphrase). The iOS version also
        available on iTunes store now.
+
+- name: CatFs
+  more: A cource project
+  time: Since May 2014
+  des: It is a project of "Distributed Computing and Systems",
+       a distributed filesystem with a single master like Google
+       File System. It is a group project and I am responsible for
+       the architecture and the detail implementation of our
+       "DataServer" (like Chunk Server in GFS). It is implemented
+       in Golang. Now it is only a course project and can't be
+       used in production, but I will continue working on it
+       and make it better.
+
+- name: Blog Template
+  more: A personal project
+  time: Since Feb. 2012
+  des: A blog template based on Jekyll. It is the theme of my personal
+       blog. It is implemented by less, CoffeeScript, Html.
+
+- name: Dataflow Analysis Framework
+  more: A cource project
+  time: April 2014 – June 2014
+  des: It is a project of "Advanced Compilers", a data flow analysis
+       framework based on LLVM. By the framework, we also implemented
+       4 simple data flow analysis, "Constant Propagation", "Pointer
+       Analysis", "Available Expressions" and "Range Analysis".
+
+- name: Web Note
+  more: A hackathon project
+  time: April 2014
+  des: It is for a hackathon contest held by Facebook. It contains a
+       webserver (nodejs) and a Chrome plugin. If people installed the plug in,
+       they can take notes (or highlight) on most of the website.
+       And all the data will stored in the server.
 
 - name: MessageHook-OpenFire
   more: A hackathon project
@@ -18,9 +52,23 @@
        chatting. And users can do whatever the administrator configured
        in the server such as deploy a website.
 
+- name: Linux Benchmark
+  more: A cource project
+  time: Jan. 2014 - March 2014
+  des: It is a project of "Principles of Computer Operating Systems",
+       which includes several benchmarks of Linux. We implemented
+       the benchmarks about CPU, Memory, Network and Filesystem.
+
+- name: Cord Keyboard Experiment
+  more: A cource project
+  time: Oct. 2013 - Nov. 2013
+  des: An experimental project for HCI. It is to find out which kind
+       of Cord keyboard pattern is better.
+
 - name: MyLex
   time: Oct. 2012
-  des: It is the homework of "Compilers", a tiny lexical analyzer generator.
+  more: A cource project
+  des: It is a project of "Compilers", a tiny lexical analyzer generator.
        And it is personal project and implemented in C++. It can parse a
        file with a specific format and generate a lexical analyzer for a
        language defined in the file.
