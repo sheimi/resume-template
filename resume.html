@@ -131,25 +131,6 @@ layout: default
         </ul>
       </div>
     </section>
-    <section id="awards" class="sub-section">
-      <h2>Awards</h2>
-      <div class="section-content">
-        <ul class="section-ul">
-          {% for award in site.data.awards %}
-          <li>
-            <div class="awards-block clearfix">
-              <div class="left-block">
-                <span class="award-time">{{ award.time }}</span>
-              </div>
-              <div class="awards-detail right-block">
-                <span class="award-name">{{ award.name }}</span>
-              </div>
-            </div>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </section>
     <section id="about-me">
       <span class="copyright">Copyright &copy; <a
           href="{{ site.data.meta.copyright.link }}" target="_blank">{{ site.data.meta.copyright.name }}</a></span>|

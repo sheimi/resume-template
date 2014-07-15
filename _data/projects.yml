@@ -11,71 +11,33 @@
 
 - name: CatFs
   more: A course project
-  time: Since May 2014
-  des: It is a project of "Distributed Computing and Systems",
+  time: May 2014 - June 2014
+  des: It was a project of "Distributed Computing and Systems",
        a distributed filesystem with a single master like Google
-       File System. It is a group project and I am responsible for
+       File System. It was a group project and I am responsible for
        the architecture and the detail implementation of our
-       "DataServer" (like Chunk Server in GFS). It is implemented
-       in Golang. Now it is only a course project and can't be
-       used in production, but I will continue working on it
-       and make it better.
-
-- name: Blog Template
-  more: A personal project
-  time: Since Feb. 2012
-  des: A blog template based on Jekyll. It is the theme of my personal
-       blog. It is implemented by less, CoffeeScript, Html.
+       "DataServer" (like Chunk Server in GFS). It was implemented
+       in Golang. 
 
 - name: Dataflow Analysis Framework
   more: A course project
   time: April 2014 – June 2014
-  des: It is a project of "Advanced Compilers", a data flow analysis
+  des: It was a project of "Advanced Compilers", a data flow analysis
        framework based on LLVM. By the framework, we also implemented
        4 simple data flow analysis, "Constant Propagation", "Pointer
        Analysis", "Available Expressions" and "Range Analysis".
 
-- name: Web Note
-  more: A hackathon project
-  time: April 2014
-  des: It is for a hackathon contest held by Facebook. It contains a
-       webserver (nodejs) and a Chrome plugin. If people installed the plug in,
-       they can take notes (or highlight) on most of the website.
-       And all the data will stored in the server.
-
-- name: MessageHook-OpenFire
-  more: A hackathon project
-  time: Jan. 2014
-  des: This project is a hackathon project. It is a plugin for
-       OpenFire XMPP server and it turns a specific chatroom into a
-       server console. Users can type specific command while they are
-       chatting. And users can do whatever the administrator configured
-       in the server such as deploy a website.
-
 - name: Linux Benchmark
   more: A course project
   time: Jan. 2014 - March 2014
-  des: It is a project of "Principles of Computer Operating Systems",
+  des: It was a project of "Principles of Computer Operating Systems",
        which includes several benchmarks of Linux. We implemented
        the benchmarks about CPU, Memory, Network and Filesystem.
-
-- name: Cord Keyboard Experiment
-  more: A course project
-  time: Oct. 2013 - Nov. 2013
-  des: An experimental project for HCI. It is to find out which kind
-       of Cord keyboard pattern is better.
 
 - name: MyLex
   time: Oct. 2012
   more: A course project
-  des: It is a project of "Compilers", a tiny lexical analyzer generator.
-       And it is personal project and implemented in C++. It can parse a
+  des: It was a project of "Compilers", a tiny lexical analyzer generator.
+       And it was personal project and implemented in C++. It can parse a
        file with a specific format and generate a lexical analyzer for a
        language defined in the file.
-
-- name: Media Cloud
-  time: May 2011 - Mar. 2012
-  des: This is a research project for a national innovative program. 
-       We were trying to find ways to apply distributed computing and storage
-       on multimedia processing for research purpose. And I was responsible
-       for the distributed infrastructure.
