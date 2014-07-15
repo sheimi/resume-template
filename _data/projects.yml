@@ -10,7 +10,7 @@
        available on iTunes store now.
 
 - name: CatFs
-  more: A cource project
+  more: A course project
   time: Since May 2014
   des: It is a project of "Distributed Computing and Systems",
        a distributed filesystem with a single master like Google
@@ -28,7 +28,7 @@
        blog. It is implemented by less, CoffeeScript, Html.
 
 - name: Dataflow Analysis Framework
-  more: A cource project
+  more: A course project
   time: April 2014 – June 2014
   des: It is a project of "Advanced Compilers", a data flow analysis
        framework based on LLVM. By the framework, we also implemented
@@ -53,21 +53,21 @@
        in the server such as deploy a website.
 
 - name: Linux Benchmark
-  more: A cource project
+  more: A course project
   time: Jan. 2014 - March 2014
   des: It is a project of "Principles of Computer Operating Systems",
        which includes several benchmarks of Linux. We implemented
        the benchmarks about CPU, Memory, Network and Filesystem.
 
 - name: Cord Keyboard Experiment
-  more: A cource project
+  more: A course project
   time: Oct. 2013 - Nov. 2013
   des: An experimental project for HCI. It is to find out which kind
        of Cord keyboard pattern is better.
 
 - name: MyLex
   time: Oct. 2012
-  more: A cource project
+  more: A course project
   des: It is a project of "Compilers", a tiny lexical analyzer generator.
        And it is personal project and implemented in C++. It can parse a
        file with a specific format and generate a lexical analyzer for a
