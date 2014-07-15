@@ -10,7 +10,6 @@
        available on iTunes store now.
 
 - name: CatFs
-  more: A course project
   time: May 2014 - June 2014
   des: It was a project of "Distributed Computing and Systems",
        a distributed filesystem with a single master like Google
@@ -20,7 +19,6 @@
        in Golang. 
 
 - name: Dataflow Analysis Framework
-  more: A course project
   time: April 2014 – June 2014
   des: It was a project of "Advanced Compilers", a data flow analysis
        framework based on LLVM. By the framework, we also implemented
@@ -28,7 +26,6 @@
        Analysis", "Available Expressions" and "Range Analysis".
 
 - name: Linux Benchmark
-  more: A course project
   time: Jan. 2014 - March 2014
   des: It was a project of "Principles of Computer Operating Systems",
        which includes several benchmarks of Linux. We implemented
@@ -36,7 +33,6 @@
 
 - name: MyLex
   time: Oct. 2012
-  more: A course project
   des: It was a project of "Compilers", a tiny lexical analyzer generator.
        And it was personal project and implemented in C++. It can parse a
        file with a specific format and generate a lexical analyzer for a
